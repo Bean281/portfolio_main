@@ -4,7 +4,7 @@ import networkIcon from "../assets/Personal Hotspot.png";
 
 const Project = () => {
   return (
-    <div className="py-24">
+    <div className="project-content py-24">
       <div className="title text-center text-white-text-clr text-4xl">
         <p>
           All <span className="text-green-text-clr">Creative</span> Works

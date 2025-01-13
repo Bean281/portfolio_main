@@ -15,7 +15,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute w-full top-24 grid grid-cols-2  ">
+      <div className="hero-content absolute w-full top-24 grid grid-cols-2  ">
         <div className="left-hero pl-36">
           <div className="logo mb-16 leading-none">
             <p className="p-0 m-0 text-green-text-clr text-3xl font-bold ">

@@ -11,6 +11,10 @@ import Project from "./component/Project";
 function App() {
   return (
     <div className="">
+      <div className="scroll-watcher">
+        
+      </div>
+
       <section className="relative hero-section h-screen">
         <Hero/>
       </section>

@@ -12,7 +12,7 @@ import postIcon from "../assets/PostgreSQL.png";
 
 const MySkills = () => {
   return (
-    <div className="py-24">
+    <div className="skill-content py-24">
       <div className="title text-center">
         <div className="title-info text-4xl flex justify-center gap-2">
           <p className="text-white-text-clr">My</p>
@@ -23,7 +23,7 @@ const MySkills = () => {
         </div>
       </div>
       <div className="flex justify-center mt-16">
-        <div className="box-container mx-10 grid grid-cols-4 gap-12   ">
+        <div className="box-icon-container mx-10 grid grid-cols-4 gap-12   ">
             <div className="box-skill-icon w-36 h-36 rounded-xl flex justify-center flex-col items-center gap-1">
               <img className="w-2/4" src={htmlIcon} alt="" />
               <p className="text-center text-white-text-clr font-semibold text-">HTML</p>
