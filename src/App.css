@@ -48,7 +48,7 @@
     /* contain: animation start when the screen contain the entire the element
        exit: animation start when we scroll out of the element
        entry: element start from entry and end when the viewport reach to 200px
-    */
+   */
   }
 
   .about-me-content {
@@ -75,7 +75,7 @@
 }
 
 .hero-content {
-  animation: hero-fade-off linear;
+  animation: hero-fade-off linear forwards;
   animation-timeline: view();
   animation-range: exit;
 }
@@ -104,7 +104,7 @@
   }
 }
 
-@keyframes hero-fade-off {
+ @keyframes hero-fade-off {
   25% {
     opacity: 1;
   }
@@ -113,16 +113,44 @@
     opacity: 0;
     scale: 3;
   }
-}
+} 
 
-@keyframes hero-fade-in {
+ @keyframes hero-fade-in {
   0% {
     opacity: 0;
     scale: 3;
   }
-  90%, 100% {
+  90%,
+  100% {
     opacity: 1;
     scale: 1;
-    /* scale: 3; */
+  }
+} 
+
+ @media (max-width: 1520px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .right-hero {
+    margin-top: 96px;
+    padding: 0 80px;
+  }
+} 
+
+
+@media (max-width: 1310px) {
+  .img-box {
+    transform: scale(0.6); /* Scale down to 60% */
+  }
+}
+
+@media (max-width: 1230px) {
+  .img-box {
+    display: none;
   }
 }

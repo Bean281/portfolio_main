@@ -15,7 +15,7 @@ function App() {
         
       </div>
 
-      <section className="relative hero-section h-screen">
+      <section className="relative hero-section">
         <Hero/>
       </section>
 
