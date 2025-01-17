@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className=" ">
       <div className="flex items-center justify-center">
-        <div className="contact-content lg:px-50 grid grid-cols-1 gap-16 px-20 pt-24 md:grid-cols-2 md:px-20 lg:gap-72">
+        <div className="contact-content lg:px-50 grid grid-cols-1 gap-16 px-10 pt-24 md:grid-cols-2 md:px-20 lg:gap-72">
           <div className="left-content">
             <div className="title-main text-8xl font-semibold md:text-8xl lg:text-8xl">
               <p className="text-green-text-clr">Contact</p>

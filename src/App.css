@@ -104,7 +104,7 @@
   }
 }
 
- @keyframes hero-fade-off {
+ /* @keyframes hero-fade-off {
   25% {
     opacity: 1;
   }
@@ -124,8 +124,8 @@
   100% {
     opacity: 1;
     scale: 1;
-  }
-} 
+  } 
+} */
 
  @media (max-width: 1520px) {
   .hero-content {
@@ -138,7 +138,7 @@
 
   .right-hero {
     margin-top: 96px;
-    padding: 0 80px;
+    padding: 0 40px;
   }
 } 
 

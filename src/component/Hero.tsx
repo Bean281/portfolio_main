@@ -15,8 +15,8 @@ const Hero = () => {
         />
       </div>
 
-      <div className="hero-content grid w-full grid-cols-1 gap-4 py-24 lg:absolute lg:top-24 lg:grid-cols-2 lg:py-0">
-        <div className="left-hero pl-20 lg:pl-36">
+      <div className="hero-content grid w-full grid-cols-1 lg:gap-4 py-24 lg:absolute lg:top-24 lg:grid-cols-2 lg:py-0">
+        <div className="left-hero pl-10 lg:pl-36">
           <div className="logo mb-16 flex items-center justify-between leading-none">
             <div>
               <p className="m-0 p-0 text-3xl font-bold text-green-text-clr">
@@ -50,19 +50,19 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="right-hero mt-24 px-20 lg:mt-0 lg:pr-36">
+        <div className="right-hero mt-24  lg:mt-0 lg:pr-36">
           <div className="lg:flex lg:justify-end">
             <div>
               <div className="navbar mb-20 flex gap-10 lg:gap-20">
-                <div className="flex gap-1 text-xl font-semibold">
+                <div className="flex gap-1 text-lg lg:text-xl font-semibold">
                   <p className="text-white-text-clr">Stories</p>
                   <p className="text-green-text-clr">.</p>
                 </div>
-                <div className="flex gap-1 text-xl font-semibold text-gray-text-clr">
+                <div className="flex gap-1 text-lg lg:text-xl font-semibold text-gray-text-clr">
                   <p>Projects</p>
                   <p>.</p>
                 </div>
-                <div className="flex gap-1 text-xl font-semibold text-gray-text-clr">
+                <div className="flex gap-1 text-lg lg:text-xl font-semibold text-gray-text-clr">
                   <p>Contacts</p>
                   <p>.</p>
                 </div>
