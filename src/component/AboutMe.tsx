@@ -22,7 +22,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <div className="info-desc px-20 lg:pr-32">
+      <div className="info-desc px-10 lg:pr-32">
         <div className="intro mb-10 text-gray-text-clr">
           <p>/ PROBLEM SOLVER</p>
         </div>
