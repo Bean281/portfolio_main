@@ -75,7 +75,7 @@
 }
 
 .hero-content {
-  animation: hero-fade-off linear forwards;
+  animation: hero-fade-off linear ;
   animation-timeline: view();
   animation-range: exit;
 }
